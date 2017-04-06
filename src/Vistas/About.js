@@ -8,6 +8,9 @@ class About extends React.Component {
         <div>
             <Parrallax/>
             <div className="container">
+
+
+
                 <AboutText
                     title="About"
                     inerText="AO H&S is a programing boutique where our goal is to create unique experiences for our clients,

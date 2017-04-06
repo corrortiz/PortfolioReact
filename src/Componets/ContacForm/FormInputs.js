@@ -14,7 +14,7 @@ const styles = {
 };
 
 const FormInputs = ({changeName, changeEmail, changeText, name, email, text}) => (
-    <div className="row">
+    <div className="row ">
         <form className="col s12">
             <div className="row">
                 <div className="input-field col s12 m6 l6">

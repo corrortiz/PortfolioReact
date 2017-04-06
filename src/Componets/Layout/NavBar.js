@@ -5,7 +5,7 @@ import {bindActionCreators} from 'redux';
 import {openCloseDrawer} from '../../Actions/drawerActions';
 
 class AppBarExampleIcon extends React.Component{
-    handleOpenCloseDrawer(e) {
+    handleOpenCloseDrawer() {
         this.props.openCloseDrawer();
     }
 

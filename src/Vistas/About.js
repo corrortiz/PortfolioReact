@@ -10,7 +10,10 @@ class About extends React.Component {
             <div className="container">
                 <AboutText
                     title="About"
-                    inerText="In AO HyS our goal is to create unique experiences for the users of our customers, to achieve this we investigate, plan and imagine beside our customers and then we select the option that is most suitable for implement, always looking for innovation and overcoming any obstacles that stand between us and the goal, after all we believe that with good music, effort and good communication the sky is the limit, by accomplish this our customers not only receive an application, they receive a global branch of his organization"
+                    inerText="AO H&S is a programing boutique where our goal is to create unique experiences for our clients,
+                    to achieve this we investigate, plan and imagine next to them and together we select the option that is most
+                    suitable for implement, always looking for innovation, working to overcome any obstacle that stand between us
+                    and the goal, after all we believe that with good music, effort and good communication the sky is the limit."
                 />
             </div>
         </div>

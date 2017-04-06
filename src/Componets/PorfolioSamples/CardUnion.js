@@ -30,7 +30,7 @@ const CardUnion = ({imagenes, linkLive, nombre, subtema, paragraph, lenguajes}) 
                                 <h5 style={stylieFontPeso}> {subtema}</h5>
                             </div>
                             <div className="col s12 m12 l12 center-align">
-                                <img src={imagenes} className="responsive-img"/>
+                                <img src={imagenes} className="responsive-img" alt={nombre}/>
                             </div>
                             <div className="col s12 m12 l12">
                                 <RaisedButton

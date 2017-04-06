@@ -6,9 +6,23 @@ import TiwchImg from '../Assets/Images/Twich/1.png';
 import PomoImg from '../Assets/Images/Pomodore/1.png';
 import SimonSayImg from '../Assets/Images/Simone/1.png';
 import CalcuImg from '../Assets/Images/Calcul/1.png';
+import CRUD from '../Assets/Images/CRUD Sample/1.png';
 
 export default function () {
     return[
+        {
+            id:0,
+            imgenes:CRUD,
+            nombre: 'Sample CRUD App React and Java',
+            subtema: 'SPA example',
+            paragraph: `This is a sample program done with React on the client side and java on the server side.
+                        On the client side I used, Redux, React-Form, Axios, React-Promises and Semantic UI.
+                        On the server side I use Spring boot with web and acurator the endpoints were mapped manually following the entity-repository-service-controller logic, it connects to a MySQL database that is online in AWS RDS for connection to this I use HikariCP.
+                        To put the app live I use heroku, there are two ways the first is using the server to render the app or through a separate server using node.js.
+                        I decided to use the first form and so I have the server together with the client.`,
+            linkLive: 'https://sample-api-aohys.herokuapp.com/',
+            lenguajes: ['Java', 'Javascript', 'Node']
+        },
         {
             id:1,
             imgenes:Imagen,

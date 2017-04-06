@@ -8,7 +8,7 @@ class Layout extends React.Component {
         return(
             <div>
                 <NavBar/>
-                {this.props.children}
+                 {this.props.children}
                 <Foooter/>
                 <DrawerAO/>
             </div>

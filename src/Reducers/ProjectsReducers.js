@@ -21,7 +21,7 @@ export default function () {
                         To achieve these two goals the client and I decided to use material desing from google and react for the internazionalization of the page thus achieving a change of language without having to reload the complete page.
                         The result is this beautiful page where you can find resuables coffee filters, if you are in Canada or North America you should try them, they are good for the environment and generate a rich coffee.`,
             linkLive: 'http://brewitfilters.com',
-            lenguajes: ['React', 'Javascript', 'Amazon S3']
+            lenguajes: ['React', 'Javascript', 'Amazon S3', 'CSS', 'HTML']
         },
         {
             id:1,

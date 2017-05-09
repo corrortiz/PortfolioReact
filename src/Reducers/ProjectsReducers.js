@@ -7,11 +7,24 @@ import PomoImg from '../Assets/Images/Pomodore/1.png';
 import SimonSayImg from '../Assets/Images/Simone/1.png';
 import CalcuImg from '../Assets/Images/Calcul/1.png';
 import CRUD from '../Assets/Images/CRUD Sample/1.png';
+import BrewIt from '../Assets/Images/BrewIt/1.png';
 
 export default function () {
     return[
         {
             id:0,
+            imgenes:BrewIt,
+            nombre: 'BREW IT! Reusable coffee filters',
+            subtema: 'Multi language information page',
+            paragraph: `Brew it, is a nascent company that wanted to have a web presence with a minimalist style giving priority to the beautiful photos of their products.
+                        This company is in montreal canada and by law must have a French version of any website.
+                        To achieve these two goals the client and I decided to use material desing from google and react for the internazionalization of the page thus achieving a change of language without having to reload the complete page.
+                        The result is this beautiful page where you can find resuables coffee filters, if you are in Canada or North America you should try them, they are good for the environment and generate a rich coffee.`,
+            linkLive: 'http://brewitfilters.com',
+            lenguajes: ['React', 'Javascript', 'Amazon S3']
+        },
+        {
+            id:1,
             imgenes:CRUD,
             nombre: 'Sample CRUD App React and Java',
             subtema: 'SPA example',
@@ -24,7 +37,7 @@ export default function () {
             lenguajes: ['Java', 'Javascript', 'Node']
         },
         {
-            id:1,
+            id:2,
             imgenes:Imagen,
             nombre: 'Pole Trick Online Store',
             subtema: 'Online Store',
@@ -33,7 +46,7 @@ export default function () {
             lenguajes: ['WoordPress', 'WooComerce', 'PHP', 'AWS', 'JavaScript', 'CSS', 'HTML']
         },
         {
-            id:2,
+            id:3,
             imgenes:QuteImg,
             nombre: 'Quote Machine FCC',
             subtema: 'FCC Challenge ',
@@ -42,7 +55,7 @@ export default function () {
             lenguajes: ['FCC', 'HTML', 'CSS', 'JavaScript', 'Materialize']
         },
         {
-            id:3,
+            id:4,
             imgenes:LocalImg,
             nombre: 'Local Weather FCC',
             subtema: 'FCC Challenge ',
@@ -51,7 +64,7 @@ export default function () {
             lenguajes: ['FCC', 'HTML', 'CSS', 'JavaScript', 'Materialize']
         },
         {
-            id:4,
+            id:5,
             imgenes:WikiImg,
             nombre: 'Wiki Look FCC',
             subtema: 'FCC Challenge ',
@@ -60,7 +73,7 @@ export default function () {
             lenguajes: ['FCC', 'HTML', 'CSS', 'JavaScript', 'Materialize']
         },
         {
-            id:5,
+            id:6,
             imgenes:TiwchImg,
             nombre: 'Twitchtv FCC',
             subtema: 'FCC Challenge ',
@@ -69,7 +82,7 @@ export default function () {
             lenguajes: ['FCC', 'HTML', 'CSS', 'JavaScript', 'Materialize']
         },
         {
-            id:6,
+            id:7,
             imgenes:PomoImg,
             nombre: 'Pomodoro Clock FCC',
             subtema: 'FCC Challenge ',
@@ -78,7 +91,7 @@ export default function () {
             lenguajes: ['FCC', 'HTML', 'CSS', 'JavaScript', 'Materialize']
         },
         {
-            id:7,
+            id:8,
             imgenes:SimonSayImg,
             nombre: 'Simon Game FCC',
             subtema: 'FCC Challenge ',
@@ -87,7 +100,7 @@ export default function () {
             lenguajes: ['FCC', 'HTML', 'CSS', 'JavaScript', 'Materialize']
         },
         {
-            id:8,
+            id:9,
             imgenes:CalcuImg,
             nombre: 'FCC Calculator',
             subtema: 'FCC Challenge ',
